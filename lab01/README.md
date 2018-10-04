@@ -20,6 +20,9 @@ The Terraform configuration in this directory will provision one or more AWS EC2
 
 - **Pre-requisites:**
   - An AWS account with IAM user credentials: `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`
+  - A Default VPC in the "us-west-2" region. If case you want to use a default VPC in a different US region, you can use the settings below:
+    - Change Task 1 "TERRAFORM WORKING DIRECTORY": `lab2`
+    - Set a Terraform variable in your Workspace with the key: `region`, and value as: one of `us-east-1`, `us-east-2`, `us-west-1`, `us-west-2`
   - Access to a Terraform Enterprise Server. This Lab will use the hosted SaaS version on [app.terraform.io](https://app.terraform.io), attendees will be provided a trial account.
   - A [GitHub](https://github.com/) account.
 
