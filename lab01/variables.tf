@@ -9,7 +9,7 @@ variable "identity" {
 
 variable "ami" {
   description = "The Amazon Machine Image for new instances."
-  default     = "ami-c62eaabe"
+  default     = "ami-e24b7d9d"
 }
 
 variable "ingress_cidr" {
@@ -19,5 +19,5 @@ variable "ingress_cidr" {
 
 variable "num_webs" {
   description = "The number of servers to run"
-  default     = "1"
+  default     = "2"
 }
